@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    IBOutlet UILabel *mylabel;}
+@property(nonatomic, retain) IBOutlet UILabel *myLabel;
+-(IBAction)sayHello:(id)sender;
 
 
 @end
